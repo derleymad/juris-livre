@@ -1,0 +1,14 @@
+{
+  "name": "JurisLivre",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Pega a jurisprudência e baixa como .txt",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
